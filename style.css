@@ -1,0 +1,136 @@
+.attribution 
+    { 
+      font-size: 11px; 
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+    }
+    .attribution a 
+    { 
+      color: hsl(228, 45%, 44%); 
+    }
+    
+    .body 
+    {
+      background-color:hsl(233, 47%, 7%);
+      color: white;
+      display: grid;
+      place-items: center;
+
+    }
+
+    .container
+    {
+      width: 75%;
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+    }
+    
+    .info 
+    {
+      background-color: hsl(244, 38%, 16%);
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .heading 
+    {
+      margin: 0 auto;
+      font-size: 32px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      line-height: 150%;
+      max-width: 70%;
+      padding-bottom: 5%;
+    }
+
+    .text 
+    {
+      margin: 0 auto;
+      color: hsla(0, 0%, 100%, 0.75);
+      font-size: 16px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400; 
+      line-height: 150%;
+      max-width: 70%;
+      padding-bottom: 5%;
+    }
+
+    .list
+    {
+      color: hsla(0, 0%, 100%, 0.6);
+      font-size: 16px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400; 
+      line-height: 150%;
+    }
+
+    .image 
+    {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      object-fit: stretch;
+      width: 100%;
+      height: 100%;
+      
+    }
+
+    .image-container
+    {
+      position: relative;
+    }
+
+
+    .purple-layer 
+    {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background:hsl(277, 64%, 61%);
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    ul.list li 
+    {
+      display:inline;
+    }
+
+    h1#purple
+    {
+      color:hsl(277, 64%, 61%);
+    }
+
+    .stats 
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      max-width: 100%;
+    }
+
+    .stats p 
+    {
+      margin-top: 0px;
+      color:hsla(0, 0%, 100%, 0.6);
+      font-family: 'Inter', sans-serif;
+      font-weight: 400; 
+
+    }
+
+    .stats h1
+    {
+      margin-bottom: 0px;
+      font-size: 16px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      line-height: 150%;
+      color:hsla(0, 0%, 100%, 0.6)
+
+    }
